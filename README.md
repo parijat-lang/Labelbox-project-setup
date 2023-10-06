@@ -23,7 +23,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Copy and paste your workspace API key in the .env file
-echo "LB_API_KEY=<workspace api key>" > .env
+LB_API_KEY=<workspace api key>
 
 # Now run the project.py script and follow the command-line prompts
 python project.py
