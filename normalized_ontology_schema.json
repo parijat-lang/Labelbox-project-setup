@@ -34,6 +34,12 @@
           "label": "no_eye_contact",
           "position": 1,
           "options": []
+         },
+         {
+          "value": "hidden_or_unclear",
+          "label": "hidden_or_unclear",
+          "position": 2,
+          "options": []
          }
         ],
         "position": 0
@@ -73,6 +79,12 @@
           "value": "no_smile",
           "label": "no_smile",
           "position": 1,
+          "options": []
+         },
+         {
+          "value": "hidden_or_unclear",
+          "label": "hidden_or_unclear",
+          "position": 2,
           "options": []
          }
         ],
@@ -129,6 +141,8 @@
       ]
      },
      {
+      "schemaNodeId": "clnlkoue707c107yy91lk6xv9",
+      "featureSchemaId": "clnlkoue607bu07yyed6c10wl",
       "tool": "rectangle",
       "name": "face_bb",
       "color": "#008941",
@@ -136,6 +150,8 @@
       "archived": false,
       "classifications": [
        {
+        "schemaNodeId": "clnlkoue707c007yy8eom1krp",
+        "featureSchemaId": "clnlkoue607bv07yydk2p25h7",
         "type": "radio",
         "name": "grooming",
         "instructions": "grooming",
@@ -143,15 +159,25 @@
         "archived": false,
         "options": [
          {
+          "schemaNodeId": "clnlkoue607bx07yy4m4y5oym",
+          "featureSchemaId": "clnlkoue607bw07yyepk201hl",
           "value": "presentable",
           "label": "presentable",
           "position": 0,
           "options": []
          },
          {
+          "schemaNodeId": "clnlkoue607bz07yy3pc55ty2",
+          "featureSchemaId": "clnlkoue607by07yy2o6e7grz",
           "value": "not_presentable",
           "label": "not-presentable",
           "position": 1,
+          "options": []
+         },
+         {
+          "value": "hidden_or_unclear",
+          "label": "hidden_or_unclear",
+          "position": 2,
           "options": []
          }
         ],
